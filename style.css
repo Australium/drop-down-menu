@@ -22,11 +22,6 @@ ul {
     clear: both;
  }
 
-.nav-list {
-    margin: 0;
-    padding: 0;
-}
-
 .item {
     display: inline-block;
     vertical-align: top;
@@ -86,11 +81,11 @@ ul {
     float: right;
 }
 
-.position {
+.sub-item {
     position: relative;
 }
 
-.position:hover .sub-sub-list{
+.sub-item:hover .sub-sub-list{
     display: block;
 }
 
